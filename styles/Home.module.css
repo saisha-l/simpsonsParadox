@@ -1,92 +1,191 @@
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.scrollyVideo{
+  z-index: 5; /* Ensure this is lower than the image */
+  position: relative; /* Ensure z-index works */
+  display: block;
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  background-color: transparent;
 }
 
-.title a {
-  color: #0070f3;
+.simpsonFont2 {
+  font-family: 'Chewy', cursive;
+  color: #ffde02;
+  text-shadow: 
+    -2px -2px 0 #000,  
+    1px -1px 0 #000,
+    -2px 2px 0 #000,
+    1px 1px 0 #000;
+
+}
+.simpsonFont {
+  font-family: 'Chewy', cursive;
+  color: #ffde02;
+  text-shadow: 
+    -3px -3px 0 #000,  
+    1px -1px 0 #000,
+    -3px 3px 0 #000,
+    1px 1px 0 #000;
+}
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('/cloud.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 0 auto; 
+  padding-top: 100px; 
+}
+.chewyFont {
+  margin: 60px auto;
+  font-family: 'Chewy', cursive;
+  font-size: 40px;
+}
+
+.simpParaHeader {
+  display: block;
+  margin: -70px auto 50px;
+  z-index: 10; /* Ensure this is higher than the scrolly video element */
+  position: relative; /* Ensure z-index works */
+  width: 70%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+.title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+
+}
+
+
+.title1 {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  margin-bottom: 10vh;
+  z-index: 600;
+}
+.videoContainer {
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.infoSection {
+  padding: 50px 20px;
+  background: #f4f4f4;
+  text-align: left;
+}
+
+.features {
+  padding: 50px 20px;
+}
+
+.gallery {
+  margin: 30px 0;
+}
+
+.gallery .images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+  margin: 30px 0;
+  padding: 20px;
+  background: #e0ffe0;
+}
+
+.cta .button {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cta .button:hover {
+  background-color: #005bb5;
+}
+
+.faq details {
+  margin: 10px 0;
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e7e7e7;
+}
+
+.poweredBy {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px; /* Add some space between the divs */
+}
+
+.poweredBy span {
+  margin-right: 10px;
+}
+
+.poweredBy a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.poweredBy a:hover {
   text-decoration: underline;
 }
 
-.title {
-  margin: 0 0 1rem;
-  line-height: 1.15;
-  font-size: 3.6rem;
-}
-
-.title {
-  text-align: center;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  max-width: 800px;
-  margin-top: 3rem;
-}
-
-.card {
-  margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition:
-    color 0.15s ease,
-    border-color 0.15s ease;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
 .logo {
-  height: 1em;
+  height: 30px;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.notice {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
 }
