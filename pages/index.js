@@ -32,16 +32,35 @@ export default function Home() {
           <div className={styles.textContent}>
           </div>
             <div className={styles.grid}>
-            <h2 className={styles.simpsonFont2} style={{ fontSize: '30px', marginBottom: '40px'}}>
+            
+             <div className={styles.textBox}>
+             <h2 className={styles.simpsonFont2} style={{ fontSize: '30px', marginBottom: '40px'}}>
             <em> A quick run down on..</em>
              </h2>
             <img src="./simpParaHeader.png" alt="Simpson's Paradox" style={{ maxWidth: '80%', height: 'auto',}} className={styles.simpParaHeader} />
-             <h1 className={styles.simpsonFont}  style={{ fontSize: '50px',}}>
-              Correlation VS Causation
-             </h1>
-                <h1>
-
-                </h1>
+            
+              <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px'}}>
+              What is Simpson’s Paradox?
+              </h1>
+              <h3 className={styles.normalFont1} >
+              Technical Definition:
+              </h3>
+              <p>
+              Simpson’s Paradox is a statistical phenomenon where an association between two variables in a population emerges, disappears or reverses when the population is divided into subpopulations. 
+              </p>
+              <h3 className={styles.normalFont1} >
+              Simplified Definition:
+              </h3>
+              <p>
+              Simpson’s Paradox is a statistical concept when a trend you see in a big group changes/flips when you break the big group into smaller parts.
+              </p>
+              <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px'}}>
+              Why does it matter?
+              </h1>
+              <p>
+              Simpson’s paradox is critical when thinking about fair comparisons. In the situation of medical treatments, specific groups could be overlooked while looking at the broad results (i.e. marginalized communities, older patients etc.) causing less equity in medical care. It can also be really important when trying to understand misinformation, since media or other sources might try to sway data by not showing us the entire story.
+              </p>
+              </div>
             </div>
       </main>
       <footer className={styles.footer}>
