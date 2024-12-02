@@ -5,7 +5,7 @@ body {
   display: flex;
  align-items: center;
  align-content: center;
- background-image: url('/cloud.png');
+ background-image: url('public/cloud.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,7 +15,6 @@ main{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url('/path/to/cloudsBg.jpg');
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;

@@ -39,15 +39,19 @@
 }
 
 .normalFont1 {
-  font-family: 'Chewy', cursive;
-  color: #333;
+  font-family: 'Parkinsans';
   font-size: 30px;
+  font-weight: 700;
+  color:#333;
 }
-
+.normalFont2{
+  font-family: 'Parkinsans';
+  font-size: 20px;
+}
 .container {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-image: url('/cloud.png');
+  background-image: url('/clouds.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

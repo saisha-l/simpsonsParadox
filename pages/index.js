@@ -25,8 +25,8 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" />
       </Head>
-
       <main>
           <div id="scrolly-video" className={styles.scrollyVideo}></div>
           <div className={styles.textContent}>
@@ -45,19 +45,19 @@ export default function Home() {
               <h3 className={styles.normalFont1} >
               Technical Definition:
               </h3>
-              <p>
+              <p className={styles.normalFont2}>
               Simpson’s Paradox is a statistical phenomenon where an association between two variables in a population emerges, disappears or reverses when the population is divided into subpopulations. 
               </p>
               <h3 className={styles.normalFont1} >
               Simplified Definition:
               </h3>
-              <p>
+              <p className={styles.normalFont2}>
               Simpson’s Paradox is a statistical concept when a trend you see in a big group changes/flips when you break the big group into smaller parts.
               </p>
               <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px'}}>
               Why does it matter?
               </h1>
-              <p>
+              <p className={styles.normalFont2}>
               Simpson’s paradox is critical when thinking about fair comparisons. In the situation of medical treatments, specific groups could be overlooked while looking at the broad results (i.e. marginalized communities, older patients etc.) causing less equity in medical care. It can also be really important when trying to understand misinformation, since media or other sources might try to sway data by not showing us the entire story.
               </p>
               </div>
