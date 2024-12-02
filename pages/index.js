@@ -60,6 +60,65 @@ export default function Home() {
               <p className={styles.normalFont2}>
               Simpson’s paradox is critical when thinking about fair comparisons. In the situation of medical treatments, specific groups could be overlooked while looking at the broad results (i.e. marginalized communities, older patients etc.) causing less equity in medical care. It can also be really important when trying to understand misinformation, since media or other sources might try to sway data by not showing us the entire story.
               </p>
+
+              <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px'}}>
+                Case Study
+              </h1>
+              <p className={styles.normalFont2}>
+              Let's take a look at an example of Simpson's Paradox, so we can better understand it. 
+              </p>
+              <p className={styles.normalFont2}>
+             At Springfeild elementary school, Principal Skinner wants to create a report on student's grades in Math and English. The tables below contain data on Bart and Lisa's grades in both classes.
+              </p>
+            <div className={styles.tableContainer}>
+  <table className={styles.table}>
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Bart's Scores</th>
+        <th>Lisa's Scores</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Math</td>
+        <td>90/100 (90%)</td>
+        <td>80/100 (80%)</td>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td>30/50 (60%)</td>
+        <td>25/50 (50%)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table className={styles.table}>
+    <thead>
+      <tr>
+        <th>Total Scores</th>
+        <th>Bart</th>
+        <th>Linda</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>120/150 (80%)</td>
+        <td>105/150 (70%)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p className={styles.normalFont2}>
+  By just looking at the total scores, Principal Skinner concludes that Bart is doing better then Lisa at school. 
+</p>
+
+              <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px'}}>
+                Sources
+              </h1>
+              <img src="./citations.png" alt="citations" style={{ maxWidth: '40%', height: 'auto', marginTop:'30px',}} className={styles.simpParaHeader} />
+
               </div>
             </div>
       </main>
