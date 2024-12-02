@@ -279,6 +279,39 @@
 }
 
 .correctBox, .incorrectBox {
+  background-color: #ffde02;
+  color: #333;
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.linkButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.linkButton {
+  background-color: #ffde02;
+  color: #333;
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.linkButton:hover {
+  background-color: #e6c800;
+}
+
+.correctBox, .incorrectBox {
   color: whitesmoke;
   font-family: 'Chewy', cursive;
   font-size: 20px;

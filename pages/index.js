@@ -150,6 +150,18 @@ export default function Home() {
               </div>
             )}
             <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px' }}>
+            Additional Resources              
+            </h1>
+            <p className={styles.normalFont1}>
+              Want to learn more about Simpson's Paradox? Check out the resources below. 
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ebEkn-BiW5k?si=kWa7W8pHjqJTTe7N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div className={styles.linkButtonContainer}>
+              <a href="https://towardsdatascience.com/simpsons-paradox-and-interpreting-data-6a0443516765" target="_blank" rel="noopener noreferrer" className={styles.linkButton}>Simpson’s Paradox and Interpreting Data</a>
+              <a href="https://www.example2.com" target="_blank" rel="noopener noreferrer" className={styles.linkButton}>Example 2</a>
+              <a href="https://www.example3.com" target="_blank" rel="noopener noreferrer" className={styles.linkButton}>Example 3</a>
+            </div>
+            <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px' }}>
               Sources
             </h1>
             <img src="./citations.png" alt="citations" style={{ maxWidth: '40%', height: 'auto', marginTop: '30px' }} className={styles.simpParaHeader} />
