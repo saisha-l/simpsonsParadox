@@ -255,3 +255,42 @@
   font-size: 16px;
   color: #333;
 }
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #ffde02;
+  color: #333;
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #e6c800;
+}
+
+.correctBox, .incorrectBox {
+  color: whitesmoke;
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.incorrectBox {
+  background-color: rgb(184, 78, 66);
+
+}
+.correctBox {
+  background-color: seagreen;
+
+}
