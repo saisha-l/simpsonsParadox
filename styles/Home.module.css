@@ -48,6 +48,12 @@
   font-family: 'Parkinsans';
   font-size: 20px;
 }
+.normalFont3{
+  font-family: 'Parkinsans';
+  font-size: 20px;
+  text-align: left;
+}
+
 .container {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -215,4 +221,37 @@
   font-size: 14px;
   color: #666;
   text-align: center;
+}
+
+.tableContainer {
+  margin: 20px 0;
+  width: 100%;
+  overflow-x: auto;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th, .table td {
+  font-family: 'Chewy', cursive;
+  font-size: 16px;
+  color: #333;
 }
