@@ -157,13 +157,51 @@ export default function Home() {
             </p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ebEkn-BiW5k?si=kWa7W8pHjqJTTe7N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div className={styles.linkButtonContainer}>
-              <a href="https://towardsdatascience.com/simpsons-paradox-and-interpreting-data-6a0443516765" target="_blank" rel="noopener noreferrer" className={styles.linkButton}>Simpson’s Paradox and Interpreting Data</a>
-              <a href="https://www.example2.com" target="_blank" rel="noopener noreferrer" className={styles.linkButton}>Example 2</a>
-              <a href="https://www.example3.com" target="_blank" rel="noopener noreferrer" className={styles.linkButton}>Example 3</a>
+              <a href="https://towardsdatascience.com/simpsons-paradox-and-interpreting-data-6a0443516765" target="_blank" rel="noopener noreferrer" className={styles.linkButton}>Interpreting Data</a>
+              <a href="https://discovery.cs.illinois.edu/learn/Basics-of-Data-Science-with-Python/Simpsons-Paradox/" target="_blank" rel="noopener noreferrer" className={styles.linkButton}>More Practice Problems</a>
+              <a href="https://brilliant.org/wiki/simpsons-paradox/" target="_blank" rel="noopener noreferrer" className={styles.linkButton}>More Information</a>
             </div>
             <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px' }}>
               Sources
             </h1>
+            <div className={styles.citations}>
+            <p className={styles.normalFont2}>
+            Frost, J. (2023, January 10).  
+            <span className={styles.indented}>Simpson's Paradox Explained. <i>Statistics by Jim</i>. Retrieved from <a href="https://statisticsbyjim.com/basics/simpsons-paradox/" target="_blank" rel="noopener noreferrer">https://statisticsbyjim.com/basics/simpsons-paradox/</a></span>  
+          </p>
+          <p className={styles.normalFont2}>
+            Carlson, B. W. (2016, August 31).  
+            <span className={styles.indented}>Simpson’s paradox | Definition, Example, and Explanation. <i>Encyclopedia Britannica</i>. Retrieved from <a href="https://www.britannica.com/topic/Simpsons-paradox" target="_blank" rel="noopener noreferrer">https://www.britannica.com/topic/Simpsons-paradox</a></span>  
+          </p>
+          <p className={styles.normalFont2}>
+            Sprenger, J., & Weinberger, N. (2021, March 24).  
+            <span className={styles.indented}>Simpson’s Paradox. <i>Stanford.edu</i>. Retrieved from <a href="https://plato.stanford.edu/entries/paradox-simpson/" target="_blank" rel="noopener noreferrer">https://plato.stanford.edu/entries/paradox-simpson/</a></span>  
+          </p>
+          <p className={styles.normalFont2}>
+            Calling Bullshit. (2017).  
+            <span className={styles.indented}><i>Callingbullshit.org</i>. Retrieved from <a href="https://callingbullshit.org/" target="_blank" rel="noopener noreferrer">https://callingbullshit.org/</a></span>  
+          </p>
+          <p className={styles.normalFont2}>
+            Grigg, T. (2018, December 9).  
+            <span className={styles.indented}>Simpson’s Paradox and Interpreting Data. <i>Medium; Towards Data Science</i>. Retrieved from <a href="https://towardsdatascience.com/simpsons-paradox-and-interpreting-data-6a0443516765" target="_blank" rel="noopener noreferrer">https://towardsdatascience.com/simpsons-paradox-and-interpreting-data-6a0443516765</a></span>  
+          </p>
+          <p className={styles.normalFont2}>
+            Simpson’s Paradox. (2024).  
+            <span className={styles.indented}><i>Brilliant.org</i>. Retrieved from <a href="https://brilliant.org/wiki/simpsons-paradox/" target="_blank" rel="noopener noreferrer">https://brilliant.org/wiki/simpsons-paradox/</a></span>  
+          </p>
+          <p className={styles.normalFont2}>
+            Simpson’s Paradox. (2024).  
+            <span className={styles.indented}><i>Brilliant.org</i>. Retrieved from <a href="https://brilliant.org/wiki/simpsons-paradox/" target="_blank" rel="noopener noreferrer">https://brilliant.org/wiki/simpsons-paradox/</a></span>  
+          </p>
+          <p className={styles.normalFont2}>
+            Simpson’s Paradox. (2024).  
+            <span className={styles.indented}><i>Data Science Discovery</i>. Retrieved from <a href="https://discovery.cs.illinois.edu/learn/Basics-of-Data-Science-with-Python/Simpsons-Paradox/" target="_blank" rel="noopener noreferrer">https://discovery.cs.illinois.edu/learn/Basics-of-Data-Science-with-Python/Simpsons-Paradox/</a></span>  
+          </p>
+          <p className={styles.normalFont2}>
+            Simpson's Paradox. (2017, October 24).  
+            <span className={styles.indented}><i>YouTube</i>. Retrieved from <a href="https://www.youtube.com/watch?v=ebEkn-BiW5k" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=ebEkn-BiW5k</a></span>  
+          </p>
+            </div>
             <img src="./citations.png" alt="citations" style={{ maxWidth: '40%', height: 'auto', marginTop: '30px' }} className={styles.simpParaHeader} />
           </div>
         </div>

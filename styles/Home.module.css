@@ -47,6 +47,9 @@
 .normalFont2{
   font-family: 'Parkinsans';
   font-size: 20px;
+  margin-left: 20px; /* Adjust the value as needed */
+  text-indent: -40px; /* Adjust the value as needed */
+
 }
 .normalFont3{
   font-family: 'Parkinsans';
@@ -310,7 +313,18 @@
 .linkButton:hover {
   background-color: #e6c800;
 }
+.citations {
+  margin-top: 20px;
+  text-align: left;
+}
+.indented {
+  padding-left: 20px; /* Adjust the value as needed */
+}
 
+.citations p {
+
+  line-height: 1.6;
+}
 .correctBox, .incorrectBox {
   color: whitesmoke;
   font-family: 'Chewy', cursive;
