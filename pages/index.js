@@ -150,6 +150,23 @@ export default function Home() {
               </div>
             )}
             <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px' }}>
+              More Examples
+            </h1>
+            <div className={styles.cardContainer}>
+            <div className={styles.card}>
+            <h1>🏫  </h1>
+            <p className={styles.normalFont4}>
+            In the 1970’s Berkley faced the allegation that men were being admitted at a higher rate of 44% when compared to women at 35%. Many claimed that this was grounds for gender based discrimination, but when more data was uncovered it was seen that women applied disproportionately to smaller departments such as English with lower acceptance rates, while men applied more often to less competitive departments, such as Mechanical Engineering. 
+            </p>
+            </div>
+            <div className={styles.card}>
+            <h1>⚾️</h1>
+            <p className={styles.normalFont4}>
+            In the 1990’s Baseball players  Derek Jeter and David Justice seemed to have batting averages where both players performed better in 1996 then 1995 but Jeter has more at-bats in 1996, and Justice has more in 1995. When all of this data was combined Jeter has the overall higher average although individually Justice had a higher batting average both years.
+            </p>
+            </div>
+            </div>
+            <h1 className={styles.simpsonFont} style={{ fontSize: '50px', marginBottom: '40px' }}>
             Additional Resources              
             </h1>
             <p className={styles.normalFont1}>
@@ -201,10 +218,31 @@ export default function Home() {
             Simpson's Paradox. (2017, October 24).  
             <span className={styles.indented}><i>YouTube</i>. Retrieved from <a href="https://www.youtube.com/watch?v=ebEkn-BiW5k" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=ebEkn-BiW5k</a></span>  
           </p>
+          <p className={styles.normalFont2}>
+            Bickel, P. J., Hammel, E. A., & O’Connell, J. W. (1975).<br />
+            <span className={styles.indented}>Sex Bias in Graduate Admissions: Data from Berkeley. <i>Science</i>, 187(4175), 398–404. <a href="https://doi.org/10.1126/science.187.4175.398" target="_blank" rel="noopener noreferrer">https://doi.org/10.1126/science.187.4175.398</a></span><br />
+          </p>
+          <p className={styles.normalFont2}>
+            A Mathematician at the Ballpark: Odds and Probabilities for Baseball Fans (Paperback). (2024).<br />
+            <span className={styles.indented}><i>McNally Jackson Books</i>. Retrieved from <a href="https://www.mcnallyjackson.com/book/9780452287822" target="_blank" rel="noopener noreferrer">https://www.mcnallyjackson.com/book/9780452287822</a></span><br />
+         </p>
             </div>
-            <img src="./citations.png" alt="citations" style={{ maxWidth: '40%', height: 'auto', marginTop: '30px' }} className={styles.simpParaHeader} />
-          </div>
+            <h1> Assignment Information </h1>
+            <p className={styles.normalFont2}>
+            Topic: Simpson's Paradox
+            </p>
+          <p className={styles.normalFont2}>
+            Target Audience: Junior High/High School students
+            </p>
+            <p  className={styles.normalFont2}>
+            Audience/Project Relevance: This project introduces an interactive website where students can learn more about a generally tough statistics concept that is essential to being better at identifying misinformation. I choose to make it simpson’s themed so that the UI feels more friendly then traditional Simpson’s Paradox learning resources which just throw hard to comprehend dot plots and technical vocabulary. 
+            </p>
+            <p className={styles.normalFont2}>
+            Location and Plan: Can be used in the classroom as a resource to teach about Simpson's Paradox and how it can be used to spread misinofrmation.  
+          </p>
         </div>
+          </div>
+          
       </main>
       <footer className={styles.footer}>
         <div className={styles.poweredBy}>

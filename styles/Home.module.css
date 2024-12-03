@@ -57,6 +57,14 @@
   text-align: left;
 }
 
+
+.normalFont4{
+  font-family: 'Parkinsans';
+  font-size: 15px;
+  text-align: center;
+padding: 10px 10px 10px 10px;
+}
+
 .container {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -340,4 +348,20 @@
 .correctBox {
   background-color: seagreen;
 
+}
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding-left: 10px;
 }
